@@ -2,7 +2,7 @@
 <manifest>
     <remote name="DT"
             fetch="https://github.com/SM6225-Rhode"/>
-    <remote name="Kernel" 
+    <remote name="Lineage" 
             fetch="https://github.com/LineageOS"/>
 
     <!-- Device-Tree & Device-Common -->
