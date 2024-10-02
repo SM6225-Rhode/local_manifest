@@ -4,17 +4,19 @@
             fetch="https://github.com/SM6225-Rhode"/>
     <remote name="Lineage" 
             fetch="https://github.com/LineageOS"/>
+    <remote name="Dance"
+            fetch="https://github.com/ZetLink"/>
 
     <!-- Device-Tree & Device-Common -->
-    <project path="device/motorola/rhode" name="device_motorola_rhode" remote="DT" revision="Fourteen"/>
-    <project path="device/motorola/sm6225-common" name="device_motorola_sm6225-common" remote="DT" revision="Fourteen"/>
+    <project path="device/motorola/rhode" name="device_motorola_rhode" remote="DT" revision="A14"/>
+    <project path="device/motorola/sm6225-common" name="device_motorola_sm6225-common" remote="DT" revision="A14"/>
 
     <!-- Vendor & Vendor-Common -->
-    <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="DT" revision="lineage-21"/>
-    <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="DT" revision="Fourteen"/>
+    <project path="vendor/motorola/rhode" name="proprietary_vendor_motorola_rhode" remote="DT" revision="A14"/>
+    <project path="vendor/motorola/sm6225-common" name="proprietary_vendor_motorola_sm6225-common" remote="DT" revision="A14"/>
     
     <!-- Kernel & Dependencies -->
-    <project path="kernel/motorola/sm6225" name="kernel_motorola_sm6225" remote="Lineage" revision="lineage-21"/>
+    <project path="kernel/motorola/sm6225" name="DanceKernel" remote="Dance" revision="main"/>
     <project path="system/qcom" name="android_system_qcom" remote="Lineage" revision="lineage-21"/>
     <project path="hardware/motorola" name="android_hardware_motorola" remote="Lineage" revision="lineage-21"/>
 
